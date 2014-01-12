@@ -61,3 +61,6 @@ filetype plugin indent on
 
 " Fix number format so digits are not interpreted as octal
 set nrformats=
+
+" For pydoc
+filetype plugin on
