@@ -61,3 +61,8 @@ filetype plugin indent on
 
 " Fix number format so digits are not interpreted as octal
 set nrformats=
+
+" Supertab
+let g:SuperTabDefaultCompletionType = "context"
+let g:jedi#auto_close_doc = 1
+" autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
